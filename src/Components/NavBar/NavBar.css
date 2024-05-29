@@ -1,0 +1,29 @@
+body {
+    width: 100vw;
+    height: 1000px;
+    /* background-color: #f0f2fb; */
+    background: linear-gradient(to bottom left, #dfe1f3, #ffffff);
+}
+
+nav {
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+}
+.nav {
+    display: flex;
+    color: black;
+    list-style: none;
+    gap: 25px;
+    font-size: 20px;
+    height: 100%;
+    justify-content: end;
+    margin-right: 200px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    color: ;
+}
