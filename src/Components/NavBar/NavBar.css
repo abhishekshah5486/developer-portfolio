@@ -1,16 +1,12 @@
-body {
-    width: 100vw;
-    height: 1000px;
-    /* background-color: #f0f2fb; */
-    background: linear-gradient(to bottom left, #dfe1f3, #ffffff);
-}
-
-nav {
-    height: 10vh;
+.navbar {
+    height: 12vh;
     width: 100vw;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav {
+.navbar-menu {
     display: flex;
     color: black;
     list-style: none;
@@ -23,7 +19,14 @@ nav {
     align-items: center;
 }
 
-.nav-item:hover{
+.profile-img {
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    border: 2px solid #6674cc;
+    border-radius: 50%;
+}
+.navbar-item:hover{
     cursor: pointer;
-    color: ;
+    /* color: ; */
 }

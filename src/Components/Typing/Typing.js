@@ -1,0 +1,42 @@
+import { useEffect, useState } from "react";
+
+function Typing({
+    text, 
+    typingSpeed, 
+    deletingSpeed,
+    duration=1000
+}){
+    const [displayedText, setDisplayedText] = useState("");
+    const [isDeleting, setIsDeleting] = useState(false);
+    const [index, setIndex] = useState(0);
+    useEffect(() => {
+        const handleTyping = () => {
+            if (!isDeleting){
+                if (displayedText.length < text[index].length){
+                    setDisplayedText((prev) => prev + text[index].charAt(setDisplayedText.length))
+                } else {
+                    setTimeout(() => setIsDeleting(true));
+                }
+            }
+            else if (isDeleting) {
+                if (displayedText.length > 0){
+                    setDisplayedText((prev) => prev.slice(0, -1));
+                } else {
+                    setIsDeleting(false);
+                    setIndex((prev) => (prev+1)%text.length);
+                }
+            }
+        }
+        const timeout = setTimeout(
+            handleTyping, 
+            isDeleting ? deletingSpeed : typingSpeed
+        );
+        return () => clearTimeout(timeout);
+    }, [displayedText, typingSpeed, index,typingSpeed, deletingSpeed, text])
+    return (
+        <div className="typing-effect">
+            {displayedText}
+        </div>
+    );
+}
+export default Typing;
