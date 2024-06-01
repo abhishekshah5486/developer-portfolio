@@ -1,6 +1,6 @@
 function AboutPage(){
     return(
-        <div></div>
+        <div>Hello, I am Abhishek Kumar Shah</div>
     )
 }
 export default AboutPage;

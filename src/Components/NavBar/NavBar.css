@@ -1,7 +1,7 @@
 .navbar {
     height: 12vh;
     width: 100vw;
-    background-color: white;
+    background-color: #0f172a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,12 @@
     margin-top: 0px;
     align-items: center;
 }
-
+.navbar h1 {
+    color: #5eead4;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    margin-left: 150px;
+    font-weight: 500;
+}
 .profile-img {
     height: 80px;
     width: 80px;
@@ -26,7 +31,19 @@
     border: 2px solid #6674cc;
     border-radius: 50%;
 }
+.navbar-item {
+    color: white;
+}
 .navbar-item:hover{
     cursor: pointer;
-    /* color: ; */
+    color: #5eead4;
+}
+.navbar-item::after {
+    width: 0;
+    height: 2px;
+    background-color: #5eead4;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-item:hover::after {
+    width: 100%;
 }

@@ -1,0 +1,12 @@
+.cursor-shadow {
+    position: absolute;
+    /* width: 50px; */
+    /* height: 50px; */
+    /* background-color: white; */
+    border-radius: 50%;
+    pointer-events: none; /* Make sure the cursor shadow does not interfere with pointer events */
+    transform: translate(-50%, -50%); /* Center the shadow around the cursor */
+    box-shadow: 0 0 900px 50px rgb(83, 83, 208); /* Adjust the shadow as needed */
+    z-index: 1000; /* Ensure the shadow is above other elements */
+  }
+  

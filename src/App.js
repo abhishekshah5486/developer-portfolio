@@ -7,24 +7,18 @@ import CardComponent from './Components/CardComponent/CardComponent';
 import Banner from './Components/Banner/Banner';
 import ProgressBar from './Components/ProgressBar';
 import AboutPage from './Pages/AboutPage/AboutPage';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import CursorShadow from './Components/CursorShadow/CursorShadow';
+import Projects from './Pages/Projects/Projects';
 function App() {
   return (
 
     <div className="App">
       {/* <header className="App-header"> */}
+        {/* <CursorShadow/> */}
         <NavBar />
-        {/* <Typing 
-          text = {[
-            "Software Developer",
-            "iOS Developer" 
-          ]}
-          typingSpeed = {100}
-          deletingSpeed = {50}
-          duration={1000}
-        /> */}
         <LandingPage/>
+        <Projects/>
         <CardComponent
           header = {"Class is going on."}
           subHeader={"Everyone is making a tile"}
@@ -36,10 +30,16 @@ function App() {
           bgColor = {"red"}
         />
       {/* </header> */}
-      <Banner/>
-      <ProgressBar/>
+      {/* <Banner/> */}
+      {/* <ProgressBar/> */}
+
+      {/* <Switch>
+        <Route exact path='/' Component={LandingPage}></Route>
+        <Route path='/AboutMe' Component={AboutPage}></Route>
+      </Switch> */}
     </div>
   );
 }
 
 export default App;
+ 
