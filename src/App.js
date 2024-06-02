@@ -10,6 +10,9 @@ import AboutPage from './Pages/AboutPage/AboutPage';
 import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import CursorShadow from './Components/CursorShadow/CursorShadow';
 import Projects from './Pages/Projects/Projects';
+import Contact from './Components/Contact/Contact';
+import ContactMe from './Pages/ContactMe/ContactMe';
+
 function App() {
   return (
 
@@ -37,6 +40,8 @@ function App() {
         <Route exact path='/' Component={LandingPage}></Route>
         <Route path='/AboutMe' Component={AboutPage}></Route>
       </Switch> */}
+      <Contact/>
+      <ContactMe/>
     </div>
   );
 }

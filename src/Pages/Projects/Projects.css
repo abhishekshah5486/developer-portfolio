@@ -13,10 +13,10 @@
 }
 .project-section-projectCards{
     display: grid;
-    grid-template-columns: 600px 500px;
-    grid-template-rows: 600px 500px;
+    grid-template-columns: 600px 400px;
+    grid-template-rows: 600px 800px;
     row-gap: 30px;
-    column-gap: 30px;
+    column-gap: 100px;
     margin-top: 50px;
     justify-content: center;
 }
@@ -29,9 +29,17 @@
     color: white;
     font-weight: 400;
 }
-.projectCard > img {
+.projectCard > #spotifyProject {
     height: 400px;
     width: 600px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.projectCard > #quiz-app {
+    height: 800px;
+    width: 400px;
     margin-top: 15px;
     border: 1px solid white;
     border-radius: 25px;
@@ -44,10 +52,15 @@
 .project-description:hover {
     color: white;
 }
-.projectCard > img:hover {
+.projectCard > #spotifyProject:hover {
     border-radius: 25px;
     transform: scale(0.97);
     border: 1px solid yellow;
+}
+.projectCard > #quiz-app:hover {
+    border-radius: 25px;
+    transform: scale(1.02);
+    border: 1px solid black;
 }
 .project-links-description {
     height: 200px;
