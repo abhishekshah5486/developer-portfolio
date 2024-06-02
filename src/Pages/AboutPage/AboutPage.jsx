@@ -6,7 +6,6 @@ function AboutPage(){
     return(
         <Element name='About'>
             <section className="about-me-page">
-                <h1>About Me</h1>
                 <div className="about-me">
                     <div className="profile-img">
                         <img src={profile} alt="" />

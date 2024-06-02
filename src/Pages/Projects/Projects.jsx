@@ -66,7 +66,7 @@ function Projects(){
                                 <div className='btn'>CSS</div>
                             </div>
                             <div className="project-links">
-                              <a href="https://github.com/abhishekshah5486/Quiz-App" className="github-icon"><i class="fa-brands fa-github"></i></a>
+                              <a href="https://github.com/abhishekshah5486/developer-portfolio" className="github-icon"><i class="fa-brands fa-github"></i></a>
                               <a href=' https://abhishekshah5486.github.io/Spotify-Clone/' className='deployed-link'><i class="fa-solid fa-link"></i></a>
                             </div>
                         </div>
