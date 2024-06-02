@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.094910b7.css",
+    "main.js": "/react-gh-pages/static/js/main.0bbf8ac8.js",
+    "static/js/453.8c68eb57.chunk.js": "/react-gh-pages/static/js/453.8c68eb57.chunk.js",
+    "static/media/SpotifyProject.png": "/react-gh-pages/static/media/SpotifyProject.d4ae1e2e60f7b1e3ac0a.png",
+    "static/media/profile.png": "/react-gh-pages/static/media/profile.4b4bd03054de1dcb65f4.png",
+    "static/media/QuizApp.png": "/react-gh-pages/static/media/QuizApp.857221a3f0df9c103034.png",
+    "static/media/section-image.jpeg": "/react-gh-pages/static/media/section-image.845e89b0bb6b6725dab4.jpeg",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.094910b7.css.map": "/react-gh-pages/static/css/main.094910b7.css.map",
+    "main.0bbf8ac8.js.map": "/react-gh-pages/static/js/main.0bbf8ac8.js.map",
+    "453.8c68eb57.chunk.js.map": "/react-gh-pages/static/js/453.8c68eb57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.094910b7.css",
+    "static/js/main.0bbf8ac8.js"
+  ]
+}
