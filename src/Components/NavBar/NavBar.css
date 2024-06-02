@@ -5,8 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    z-index: 1;
+    /* position: fixed;
+    z-index: 1; */
 }
 .navbar-menu {
     display: flex;
@@ -25,13 +25,6 @@
     /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     margin-left: 150px;
     font-weight: 500;
-}
-.profile-img {
-    height: 80px;
-    width: 80px;
-    margin-left: 150px;
-    border: 2px solid #6674cc;
-    border-radius: 50%;
 }
 .navbar-item {
     color: white;

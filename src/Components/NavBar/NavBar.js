@@ -7,7 +7,8 @@ function NavBar(){
             <h1>curious.abhishek &lt;\&gt;</h1>
             <ul className='navbar-menu'>
                 <li className='navbar-item'><Link to="home" smooth={true} duration={500}>Home</Link></li>
-                <li className='navbar-item'><a>About Me</a></li>
+                <li className='navbar-item'><Link to="About" smooth={true} duration={500}>About Me</Link></li>
+                <li className='navbar-item'><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
                 <li className='navbar-item'><a>Services</a></li>
                 <li className='navbar-item'><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
             </ul>

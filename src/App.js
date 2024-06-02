@@ -12,6 +12,7 @@ import CursorShadow from './Components/CursorShadow/CursorShadow';
 import Projects from './Pages/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import ContactMe from './Pages/ContactMe/ContactMe';
+import Skills from './Pages/Skills/Skills';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         {/* <CursorShadow/> */}
         <NavBar />
         <LandingPage/>
+        <AboutPage/>
+        <Skills/>
         <Projects/>
         {/* <CardComponent
           header = {"Class is going on."}
