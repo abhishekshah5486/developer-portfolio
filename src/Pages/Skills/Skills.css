@@ -32,19 +32,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     transition: all 0.3s ease;
 }
 .skills-item > i {
     font-size: 60px;
     color: white;
 }
+.skills-item > img {
+    height: 80px;
+    width: 80px;
+}
 .skills-item > h2 {
     font-size: 20px;
     color: white;
     font-weight: 400;
 }
+.skills-item > svg {
+    height: 80px;
+    width: 80px;
+    fill: white;
+}
 .skills-item:hover {
     transform: scale(1.02);
     background-color: #1b64ff;
+    /* background-color: black; */
 }
+

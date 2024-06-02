@@ -14,8 +14,8 @@
 .project-section-projectCards{
     display: grid;
     grid-template-columns: 600px 400px;
-    grid-template-rows: 600px 800px;
-    row-gap: 30px;
+    grid-template-rows: 600px 600px;
+    row-gap: 50px;
     column-gap: 100px;
     margin-top: 50px;
     justify-content: center;
@@ -33,15 +33,28 @@
     height: 400px;
     width: 600px;
     margin-top: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+.projectCard > #developer-folio {
+    height: 400px;
+    width: 700px;
+    margin-top: 15px;
     border: 1px solid white;
     border-radius: 25px;
     transition: all 0.3s ease;
+}
+.projectCard > #developer-folio:hover {
+    border-radius: 25px;
+    transform: scale(0.97);
+    /* border: 1px solid #1cd760; */
+    border: 1px solid #e50815;
 }
 .projectCard > #quiz-app {
     height: 800px;
     width: 400px;
     margin-top: 15px;
-    border: 1px solid white;
     border-radius: 25px;
     transition: all 0.3s ease;
 }

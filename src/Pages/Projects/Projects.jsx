@@ -4,6 +4,7 @@ import github from '../../Assets/Images/github-logo.png';
 import link from '../../Assets/Images/external-link.png'
 import QuizApp from '../../Assets/Images/QuizApp.png'
 import { Element } from 'react-scroll';
+import portfolio from "../../Assets/Images/Portfolio-img.png"
 
 function Projects(){
     return (
@@ -51,11 +52,27 @@ function Projects(){
                         </div>
                     </div>
                 </div>
-                {/* <div className="projectCard">
-                    <h2 className="project-title">Employee Management System</h2>
-                    <img src="" alt="" className="project-demoView" />
+                <div className="projectCard" id='portfolio-project'>
+                    <h2 className="project-title">Portfolio</h2>
+                    <img id="developer-folio" className="project-demoView" src={portfolio} alt="" />
+                    <div className="project-links-description">
+                        <div className="project-description">
+                        Welcome to my portfolio! This project highlights my expertise in HTML, CSS, and ReactJS, showcasing a range of web development and design skills. Explore interactive components, responsive layouts, and dynamic content, all crafted with modern web technologies. Discover my personal and professional projects and see how I can bring innovative solutions to your next project!
+                        </div>
+                        <div className="project-skills-links">
+                            <div className="project-skills">
+                                <div className='btn'>JavaScript</div>
+                                <div className='btn'>HTML5</div>
+                                <div className='btn'>CSS</div>
+                            </div>
+                            <div className="project-links">
+                              <a href="https://github.com/abhishekshah5486/Quiz-App" className="github-icon"><i class="fa-brands fa-github"></i></a>
+                              <a href=' https://abhishekshah5486.github.io/Spotify-Clone/' className='deployed-link'><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="projectCard">
+                {/* <div className="projectCard">
                     <h2 className="project-title">Employee Management System</h2>
                     <img src="" alt="" className="project-demoView" />
                 </div>
