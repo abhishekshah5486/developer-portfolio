@@ -19,7 +19,7 @@ function App() {
         <NavBar />
         <LandingPage/>
         <Projects/>
-        <CardComponent
+        {/* <CardComponent
           header = {"Class is going on."}
           subHeader={"Everyone is making a tile"}
           img = {"https://cdn.dribbble.com/users/3484830/screenshots/16787618/media/b134e73ef667b926c76d8ce3f962dba2.gif"}
@@ -28,7 +28,7 @@ function App() {
           linkText={"Scaler"}
           position={"img-right"}
           bgColor = {"red"}
-        />
+        /> */}
       {/* </header> */}
       {/* <Banner/> */}
       {/* <ProgressBar/> */}
