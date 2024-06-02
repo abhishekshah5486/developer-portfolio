@@ -14,7 +14,8 @@
     color: white;
     font-size: 18px;
     font-weight: 400;
-    border: 1px solid white;
+    /* border: 1px solid #5eead4; */
+    border: 1px solid blue;
     background-color: black;
     border-radius: 25px;
 }
@@ -27,6 +28,7 @@
 }
 #contact-me:hover {
     cursor: pointer;
-    border: 1px solid yellow;
     color: #5eead4;
+    border: none;
+    background-color: #152b39;
 }
