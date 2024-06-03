@@ -63,13 +63,13 @@
     /* border: 1px solid white; */
     gap: 30px;
 }   
-/* .socialIcons > a>i {
+.socialIcons > a>i {
     font-size: 40px;
 }
 .socialIcons > a>i:hover {
     color: #b30d10;
     cursor: pointer;
-} */
+}
 
 .contactMe-right-section{
     padding-right: 200px;
