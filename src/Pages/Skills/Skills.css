@@ -35,10 +35,10 @@
     gap: 15px;
     transition: all 0.3s ease;
 }
-.skills-item > i {
+/* .skills-item > i {
     font-size: 60px;
     color: white;
-}
+} */
 .skills-item > img {
     height: 80px;
     width: 80px;
